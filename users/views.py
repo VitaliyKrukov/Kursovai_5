@@ -1,9 +1,9 @@
-from django.contrib.auth import authenticate, get_user_model, login
+from django.contrib.auth import get_user_model
 from rest_framework import generics, permissions, status
-from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 
-from .serializers import UserRegistrationSerializer, UserSerializer
+from .serializers import (UserRegistrationSerializer, UserSerializer,
+                          UserWithTokensSerializer)
 
 User = get_user_model()
 
@@ -13,26 +13,20 @@ class UserRegistrationView(generics.CreateAPIView):
     serializer_class = UserRegistrationSerializer
     permission_classes = [permissions.AllowAny]
 
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save()
 
-@api_view(["POST"])
-@permission_classes([permissions.AllowAny])
-def user_login(request):
-    email = request.data.get("email")
-    password = request.data.get("password")
+        # Возвращаем пользователя с токенами
+        user_data = UserWithTokensSerializer(user).data
 
-    user = authenticate(request, username=email, password=password)
-
-    if user is not None:
-        login(request, user)
-        return Response({"message": "Успешный вход", "user": UserSerializer(user).data})
-    else:
-        return Response(
-            {"error": "Неверные учетные данные"}, status=status.HTTP_401_UNAUTHORIZED
-        )
+        return Response(user_data, status=status.HTTP_201_CREATED)
 
 
 class UserProfileView(generics.RetrieveAPIView):
     serializer_class = UserSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
     def get_object(self):
         return self.request.user

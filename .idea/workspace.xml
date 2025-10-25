@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1200ece-3c0f-4380-8d76-d0e834b10e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bot/management/commands/start_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/celery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/management/commands/periodic_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/migrations/0002_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/habits/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habits/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habits/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habits/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habits/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/habits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +20,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VitaliyKrukov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:VitaliyKrukov/Kursovai_5.git&quot;,
+    &quot;accountId&quot;: &quot;47098307-89ba-4b8f-b661-20b034b8f672&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -69,8 +46,8 @@
     &quot;Python.run.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/KruVit/PycharmProjects/VitaliyKrukov/Python_Kursovai_5/manage.py&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on feature&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KruVit/PycharmProjects/VitaliyKrukov/Python_Kursovai_5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -127,6 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1761087032687</updated>
       <workItem from="1761087035602" duration="13973000" />
+      <workItem from="1761235826830" duration="2358000" />
+      <workItem from="1761315781302" duration="11000" />
     </task>
     <servers />
   </component>
