@@ -176,3 +176,11 @@ SPECTACULAR_SETTINGS = {
 }
 
 AUTH_USER_MODEL = "users.User"
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+STATIC_ROOT = '/app/static'
+
+# Media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/app/media'

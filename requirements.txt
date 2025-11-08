@@ -1,27 +1,12 @@
-# Django и основные зависимости
 Django==5.2.4
 djangorestframework==3.15.2
 djangorestframework-simplejwt==5.3.0
-
-# База данных
-psycopg2-binary==2.9.10
-
-# CORS и документация
 django-cors-headers==4.4.0
 drf-spectacular==0.27.2
-
-# Фильтрация
 django-filter==24.3
-
-# Celery и Redis
 celery==5.3.6
 redis==5.0.7
-
-# Telegram бот
 python-telegram-bot==21.10
-
-# Environment variables
 python-dotenv==1.0.0
-
-# ASGI (для Django)
 asgiref==3.9.1
+requests==2.31.0
